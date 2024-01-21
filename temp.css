@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    
+    border: 2px solid black;
+    background: linear-gradient(to bottom right , #38A2D7 , #d91637);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    background-color: yellowgreen;
+}
+button{
+    padding: 12px;
+    border-radius: 12px;
+    background:linear-gradient(#ffd89b , #19547b);
+    border: 4px solid black;
+}
+input{
+    background-color: #6dc9f8;
+    padding: 12px ;
+    border-radius: 12px;
+}
+.next{
+    margin-top: 15px;
+}
+.done{
+    margin-bottom: 20px;
+}
+.wrap{
+    display: flex;
+}
+.msg{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+input{
+    height: 20px;
+    border: none;
+    border-bottom: 2px dashed black;
+}
